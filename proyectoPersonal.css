@@ -1,15 +1,14 @@
 *{
     box-sizing: border-box;
 }
-h1{font-size:3.5em ;}
-h2{font-size:2.7em ;}
-h3{font-size:2em ;}
-p{font-size:1.25em ;}
-
 
 body{
     margin: 0;
     font-family: 'roboto', sans-serif;
+    text-align: center;
+    padding-bottom: 0;
+    border: 1px solid black ;
+    height: 100%;
 } 
 
 button{
@@ -24,14 +23,16 @@ button:hover{
     background-color: rgb(92, 48, 48);
 }
 
-.container{
-    max-width: 1400px;
-    margin: auto;
+.container1{
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 auto
+    border: 1px solid black ;
+    
+  
 }
 
-header{
-    background-color: rgb(245, 245, 245);
-}
+
 
 header .logo{
     margin: 0;
@@ -47,9 +48,9 @@ header .container{
     align-items: center;
 }
 
-header nav{
+.container nav{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     text-align: center;
     padding-bottom: 25px;
 }
@@ -59,9 +60,42 @@ header a{
     text-decoration: none;
     font-weight: bold;
     color: black;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
 }
 
 header a:hover{
     color: blueviolet;
 }
+.row{
+    flex-direction: row
+}
+
+.tarjeta img{
+    width: 5rem ;
+}
+
+
+.tarjeta{
+align-items: center;
+width: 10rem;
+border: 1px solid black ;
+border-radius: 2rem;
+}
+
+.footer{
+    
+    margin: 0;
+    padding: 0 auto;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    border: 1px solid black ;
+}
+    
+
+
+
+
  
