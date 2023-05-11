@@ -31,7 +31,7 @@ header .logo{
     margin: 0;
     padding: 25px 30px;
     font-weight: bold;
-    color: blueviolet;
+    color: rgb(208, 221, 30);
     font-size: 1.6em;
 }
 
@@ -80,7 +80,7 @@ header a:hover{
 .footer{
     display: flex;
     border: 1px solid black ;
-
+    justify-content:space-around;
 }
     
 .container2{
@@ -88,15 +88,9 @@ header a:hover{
     justify-content: center;
     grid-template-columns: 200px 200px 200px;
    
+}
 
-    
-    
-    
-}
-.container1{
-    display: flex;
-    justify-content:space-around;
-}
+   
 
 .container3 img{
     width: 25rem;
