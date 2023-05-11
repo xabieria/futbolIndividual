@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    
+
 }
 
 body{
@@ -20,16 +22,7 @@ button{
 }
 
 button:hover{
-    background-color: rgb(92, 48, 48);
-}
-
-.container1{
-    margin: 0 auto;
-    text-align: center;
-    padding: 0 auto
-    border: 1px solid black ;
-    
-  
+    background-color: rgb(179, 151, 151);
 }
 
 
@@ -68,9 +61,7 @@ header a{
 header a:hover{
     color: blueviolet;
 }
-.row{
-    flex-direction: row
-}
+
 
 .tarjeta img{
     width: 5rem ;
@@ -78,22 +69,39 @@ header a:hover{
 
 
 .tarjeta{
-align-items: center;
-width: 10rem;
-border: 1px solid black ;
-border-radius: 2rem;
+    
+  
+    width: 10rem;
+    border: 1px solid black ;
+    border-radius: 2rem;
+    margin: 2rem;
 }
 
 .footer{
-    
-    margin: 0;
-    padding: 0 auto;
     display: flex;
-    text-align: center;
-    flex-direction: row;
     border: 1px solid black ;
+
 }
     
+.container2{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 200px 200px 200px;
+   
+
+    
+    
+    
+}
+.container1{
+    display: flex;
+    justify-content:space-around;
+}
+
+.container3 img{
+    width: 25rem;
+    border-radius: 2rem;
+}
 
 
 
