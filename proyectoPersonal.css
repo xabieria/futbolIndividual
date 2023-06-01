@@ -31,7 +31,7 @@ header .logo{
     margin: 0;
     padding: 25px 30px;
     font-weight: bold;
-    color: rgb(208, 221, 30);
+    color: rgb(104, 110, 9);
     font-size: 1.6em;
 }
 
@@ -100,29 +100,76 @@ header a:hover{
 
 /*Slider de galeria de fotos*/
 
-.slider_frame{
-    width: 60%;
-    height: 400px;
-    overflow: hidden;
-    align-items: center;
+.slider{
+  width: 95%;  
+  margin: auto;
+  overflow: hidden;
 }
 
-.slider_frame ul{
+.slider ul{
     display: flex;
-    animation: cambio 20s infinite;
+    padding: 0;
     width: 400%;
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: ease;
     
-  
 }
-.slider_frame li{
+
+.slider li {
     width: 100%;
     list-style: none;
 }
-.slider_frame img{
-    width: 100%;
-    height: 100%;
 
+.slider img{
+    width: 100%;
 }
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+.logo1{
+    width: 6rem;
+    margin-bottom: 2rem;
+   
+   align-items: center;
+}
+.ulFormulario li{
+    list-style: none;
+    align-items: center;
+    padding: 0;
+    margin: 1rem;
+}
+
+ img.carrito{
+  
+    width: 4rem;
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+}
+
+img.corazonRojo{
+    width: 4rem;
+    position: absolute;
+    right: 6rem;
+    top: 2rem;
+}
+
+
+
+
+
 
 
 
@@ -130,19 +177,6 @@ header a:hover{
    
 
 
-@keyframes cambio{
-    0%{margin-left: 0;}
-    20%{margin-left: 0;}
-
-    25%{margin-left: -100;}
-    45%{margin-left: -100;}
-
-    50%{margin-left: -200;}
-    70%{margin-left: -200;}
-
-    75%{margin-left: -300;}
-    100%{margin-left: -300;}
-}
 
 
 
